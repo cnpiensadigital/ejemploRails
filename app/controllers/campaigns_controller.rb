@@ -1,5 +1,4 @@
 class CampaignsController < ApplicationController
-  belongs_to :account
   before_action :set_campaign, only: [:show, :edit, :update, :destroy]
 
   # GET /campaigns

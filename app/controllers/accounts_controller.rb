@@ -1,5 +1,4 @@
 class AccountsController < ApplicationController
-  has_many :campaigns
   
   before_action :set_account, only: [:show, :edit, :update, :destroy]
 
