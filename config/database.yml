@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: ejemploRails
+  database: ejemploRails_dev
   username: usuarioejemplo
   password: 1234 
 
