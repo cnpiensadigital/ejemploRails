@@ -82,9 +82,9 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-#production:
-#  <<: *default
-#  database: ejemploRails
-#  username: usuarioejemplo
-#  password: 1234 
+production:
+  <<: *default
+  database: ejemploRails
+  username: usuarioejemplo
+  password: 1234 
 #  #<%= ENV['APPPD_DATABASE_PASSWORD'] %>
